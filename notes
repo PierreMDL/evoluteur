@@ -1,0 +1,10 @@
+flow pour régexisation ?
+
+entrée
+check liste préfixes
+check liste suffixes
+check validité racine
+=> implication phono/régex
+
+sortie
+check validité forme

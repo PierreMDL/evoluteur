@@ -1,0 +1,48 @@
+root/
+- pie/
+-- bdd.py?
+-- innovations.py
+-- notes.txt
+-- recherche.py
+-- transcription.py
+-- tests.py
+- pgerm/
+- etc/
+- __init__()
+- bdd.py
+- innovations.py
+- lexique.sqlite3
+- notes.txt
+- phonèmes.py
+- Pipfile
+- recherche.py
+- structure.txt
+- transcription.py
+
+
+
+Modules transcription :
+phonétiser() : regex -> ipa
+régexiser() : conv -> regex
+
+syllabifier() : regex -> regex
+accentuer() : regex -> regex
+analyser() : convention -> regex
+transcrire() : regex -> convention
+(runiser() ?) : convention -> runes
+
+Mot:
+.ipa
+.regex
+.conv
+.runes
+.syllabes
+.phonèmes
+.syllabifier()
+.accentuer()
+
+entrée conv:
+- regex = régexiser(conv)
+
+entrée regex:
+- conv = transcrire(regex)
